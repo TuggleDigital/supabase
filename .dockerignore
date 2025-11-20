@@ -17,3 +17,13 @@ tests
 
 .dockerignore
 apps/studio/Dockerfile
+
+# Ignore Environment Variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Ignore MCP Files
+.mcp.json
+.mcpignore

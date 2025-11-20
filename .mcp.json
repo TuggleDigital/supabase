@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "railway-mcp": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@jason-tan-swe/railway-mcp",
+        "--key",
+        "fa07de1b-130a-4817-8211-7315a921b6cb",
+        "--profile",
+        "wily-crayfish-eGwW8q"
+      ]
+    },
+    "chrome-devtools": {
+      "command": "cmd",
+      "args": ["/c", "npx", "chrome-devtools-mcp@latest"]
+    }
+  }
+}

@@ -150,3 +150,14 @@ gcloud.json
 **/.sentryclirc
 
 keys.json
+
+#Ignore vscode AI rules
+.github\instructions\codacy.instructions.md
+
+# Ignore Environment files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.staging
